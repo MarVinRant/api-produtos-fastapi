@@ -83,3 +83,10 @@ Uma próxima evolução pode usar SQLite ou PostgreSQL.
 
 O repositório está preparado para deploy como função Python no Vercel, que
 detecta a instância `app` exportada em `main.py`.
+
+API publicada:
+
+https://04-api-produtos.vercel.app/
+
+- Health check: https://04-api-produtos.vercel.app/health
+- Swagger: https://04-api-produtos.vercel.app/docs
