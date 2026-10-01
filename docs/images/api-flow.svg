@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240">
+  <rect width="960" height="240" fill="#111827" rx="18"/>
+  <text x="48" y="48" fill="#f9fafb" font-family="Arial" font-size="24" font-weight="700">Fluxo da API de produtos</text>
+  <g font-family="Arial" font-size="18" text-anchor="middle">
+    <rect x="48" y="92" width="190" height="82" rx="12" fill="#7c3aed"/>
+    <text x="143" y="126" fill="white">Cliente HTTP</text><text x="143" y="151" fill="#ede9fe">Front-end / curl</text>
+    <rect x="385" y="92" width="190" height="82" rx="12" fill="#0284c7"/>
+    <text x="480" y="126" fill="white">FastAPI</text><text x="480" y="151" fill="#e0f2fe">Rotas e validação</text>
+    <rect x="722" y="92" width="190" height="82" rx="12" fill="#059669"/>
+    <text x="817" y="126" fill="white">JSON</text><text x="817" y="151" fill="#d1fae5">Resposta HTTP</text>
+  </g>
+  <g stroke="#cbd5e1" stroke-width="4" fill="none"><path d="M238 133h147"/><path d="M575 133h147"/></g>
+  <g fill="#cbd5e1"><path d="m373 124 18 9-18 9z"/><path d="m710 124 18 9-18 9z"/></g>
+</svg>
