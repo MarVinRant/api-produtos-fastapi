@@ -68,8 +68,6 @@ pytest -q
 
 ```text
 main.py              # aplicação FastAPI e endpoints
-api/index.py         # entrada para função Python
-vercel.json          # roteamento do deploy
 tests/test_api.py    # testes das regras e respostas HTTP
 ```
 
@@ -83,5 +81,5 @@ Uma próxima evolução pode usar SQLite ou PostgreSQL.
 
 ## Deploy
 
-O repositório está preparado para deploy como função Python. O link público
-será adicionado aqui depois da publicação.
+O repositório está preparado para deploy como função Python no Vercel, que
+detecta a instância `app` exportada em `main.py`.
